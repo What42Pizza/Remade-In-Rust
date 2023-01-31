@@ -58,6 +58,7 @@ fn main() {
 
 
 
+// basically Primeagen's version (I think Primeagen?) (modified to take the length as an arg and to not add the length to the output)
 fn find_uniques_1 (data: &[u8], length: usize) -> usize {
     data.windows(length)
         .position(|window| {
