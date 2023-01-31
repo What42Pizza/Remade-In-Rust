@@ -1,5 +1,5 @@
 [package]
-name = "go_vs_rust_cade"
+name = "cade_go_vs_rust"
 version = "0.1.0"
 edition = "2021"
 
